@@ -29,7 +29,7 @@ public class ScheduledTask {
         }
     }
 
-    @Scheduled(cron = "0/10 * * * * ?")
+    @Scheduled(cron = "0/300 * * * * ?")
     public void sendRea() {
 
         try {
